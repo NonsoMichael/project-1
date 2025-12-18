@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #378c3f;
+    color: white;
+   
+
+}
+nav{
+    width: 500px;
+    
+}
+
+ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover{
+    background-color:#264440;
+    padding: 5px;
+}
+
+img{
+    display: block;
+    min-width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.hire-botton{
+    background-color: green;
+    color: white;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.download-botton{
+    background-color: green;
+    color: white;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hire-botton:hover{
+    background-color: #378c3f;
+    opacity: 0.5px;
+}
+
+.download-botton:hover{
+    background-color: #378c3f;
+    opacity: 0.5px;
+}
+
+.hero-div{
+    
+    background-image: url('asset/image/wolfgang-weiser-ix_z0BwBfFc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+}
+
+.web-design{
+    color: white;
+}
+
+.hero-section{
+    color: white;
+}
+
+.hero{
+width: 40%;
+margin: 0 auto;
+text-align: center;
+height: 300px;
+display: grid;
+align-content: space-between;
+padding-bottom: 30px;
+
+}
+
+.hero img{
+    margin: 0 auto;
+}
+
+#supreme{
+    background-color: #3e5c41ab;
+    min-height: 550px;
+    padding-top:  60px;
+}
+.button-container{
+    min-height: 50px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.container{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px  gray;
+
+
+}
+
+.item:first-child{
+    flex: 60;
+    margin-right: 150px;
+    line-height: 1.5rem;
+    padding: 20px;
+}
+
+.item:last-child{
+flex: 40;
+line-height: 1.5rem;
+padding: 20px;
+}
+
+.age{
+    margin-left: 100px;
+}
+
+.email{
+    margin-left: 84px;
+}
+
+.phone{
+    margin-left: 82px;
+}
+
+.address{
+    margin-left: 60px;
+}
+
+.language{
+    margin-left: 45px;
+}
+.second-item p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.second-item span{
+    font-size: 15px;
+    font-weight: 200px;
+}
+
+.first-item h2{
+    margin-bottom: 25px;
+}
+
+.second-item h2{
+    margin-bottom: 20px;
+}
+
+.rating-bar1{
+    width: 300px;
+    height: 5px;
+    background-color:#afd1b2;
+}
+
+.rating1{
+    width: 80%;
+    height: 5px;
+    background-color:green;
+}
+
+
+.rating-bar2{
+    width: 300px;
+    height: 5px;
+    background-color:#afd1b2;
+}
+
+
+.rating2{
+    width: 60%;
+    height: 5px;
+    background-color:green;
+}
+
+.rating-bar3{
+    width: 300px;
+    min-height: 5px;
+    background-color:#afd1b2;
+}
+
+.rating3{
+width: 75%;
+min-height: 5px;
+background-color: green;
+}
+
+.rating-bar4{
+    width: 300px;
+    min-height: 5px;
+    background-color:#afd1b2;
+}
+
+.rating4{
+width: 75%;
+min-height: 5px;
+background-color: green;
+}
+
+.rating-bar5{
+    width: 300px;
+    min-height: 5px;
+    background-color:#afd1b2;
+}
+
+.rating5{
+width: 75%;
+min-height: 5px;
+background-color: green;
+}
+
+.rating-bar6{
+    width: 300px;
+    min-height: 5px;
+    background-color:#afd1b2;
+}
+
+.rating6{
+width: 75%;
+min-height: 5px;
+background-color: green;
+}
+
+.pro-skills{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.container-fix{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.circle img{
+    margin-top: 0px;
+    border: none;
+    
+}
+
+
+.sub-menu{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: 0 auto;
+}
+
+.container1{
+   height: 300px;
+   display: flex;
+   justify-content: space-between;
+   line-height: 50px;
+   align-items: center;
+   width: 80%;
+   box-shadow: 0 0 10px  gray;
+   margin: 0 auto;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.portfolio-fix{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.sub-sub-menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.sub-sub-menu img{
+    border-radius: 0px;
+    margin: 0 auto;
+}
+
+.work-experience{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.experience{
+    display: flex;
+    box-shadow: 0 0 10px gray;
+    
+}
+.sub-experience{
+    background-color:#378c3f;
+    color: white;
+}
+
+.sub-experience:first-child{
+    flex: 30;
+    display: grid;
+    place-content: center;
+}
+
+.sub-experience:last-child{
+    flex: 70;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.sub-reference{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    box-shadow: 0 0 10px grey;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.reference-header{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+.sub-sub-reference1{
+    margin-right: 40px;
+}
+
+
+
+
+.map-area{
+    width: 100%;
+    background-color: aliceblue;
+    height: 500px;
+    margin-top: 60px;
+    display: grid;
+    place-content: center;
+
+}
+
+.contact-sign{
+    height: 300px;
+    border: 1px solid green;
+    width: 900px;
+}
+
+.contact-us{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 1.5rem;
+}
+
+.button1{
+    width: 500px;
+    height: 200px;
+    
+}
