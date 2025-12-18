@@ -20,6 +20,9 @@ a{
 }
 
 header{
+    position: sticky;
+    top: 0;
+    z-index:100;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -401,33 +404,99 @@ background-color: green;
 .map-area{
     width: 100%;
     background-color: aliceblue;
-    height: 500px;
+    height: 700px;
     margin-top: 60px;
     display: grid;
     place-content: center;
-
 }
 
-.contact-sign{
-    height: 300px;
-    border: 1px solid green;
-    width: 900px;
-}
-
-.contact-us{
-    text-align: center;
-    margin-top: 20px;
-}
-
-.buttons{
+.fill-in{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    gap: 1.5rem;
 }
 
-.button1{
-    width: 500px;
-    height: 200px;
+.fill-in input{
+    display: block;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid lightgray;
+
+} 
+
+.contact-me-section{
+    height: 500px;;
+    width: 800px;
+    padding: 20px;
+    line-height: 20px;
+    background-color: white;
+
+
+}
+
+.jump-in{
+    margin-top: 50px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.contact-me-heading{
+    text-align: center;
+}
+
+.name-icon{
+    transform: translateY(-60px) translateX(20px);
+}
+
+.subject-icon{
+    transform: translateY(-60px) translateX(20px);
+}
+
+.email-icon{
+    transform: translateY(-60px) translateX(20px);
+}
+
+.line{
+    width: 200px;
+    border-bottom:1px solid green;
+}
+
+.address p{
+margin-bottom: 20px;
+}
+
+.footer-images img{
     
+    
+    justify-content: space-between;
+    align-items: center;
+    min-width: unset;
+   
+}
+
+.footer-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}  
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
 }
